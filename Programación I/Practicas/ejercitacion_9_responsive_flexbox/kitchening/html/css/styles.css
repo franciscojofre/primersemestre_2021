@@ -1,0 +1,136 @@
+/* -------------------- Kitchening -------------------- */
+
+/* Resets */
+*{
+    box-sizing: border-box; 
+}
+
+body{
+    margin: 0; 
+}
+
+ul, ol{
+    padding: 0; 
+}
+
+li{
+    list-style-type: none; 
+}
+
+a{
+    text-decoration: none; color: white; 
+}
+
+/* Generales */
+body{
+    background-image: url(../images/bg-body.png);
+}
+
+/* Cabecera */
+header{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+header img{
+    border-radius: 50%;
+    width: 180px;
+}
+
+.main-nav{
+    margin-bottom: 20px;
+}
+
+.main-nav ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.main-nav li{
+    width: 180px;
+    height: 50px;
+    margin-right: 20px;
+    margin: 0 auto;
+    background-color: grey;
+    text-align: center;
+    padding: 13px;
+    font-size: 20px;
+}
+
+/* Banner */
+.banner{
+    margin-bottom: 30px;
+}
+.banner img{
+    width: 1180px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+/* Prodcutos */
+.vip-products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1180px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+article{
+    width: 32%;
+    margin-bottom: 30px;
+}
+
+.photo{
+    width: 380px;
+}
+
+.more{
+    background-color: grey;
+    padding: 7px;
+    font-size: 20px
+}
+
+footer{
+    background-color: red;
+    width: 1180px;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 100px;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+footer ul li{
+    margin: 0 auto;
+    font-size: 20px
+}
+/* Responsive */
+@media(max-width: 768px){
+    article{
+        width: 50%;
+    }
+
+    .photo{
+        width: 100%;
+        padding: 7px;
+    }
+}

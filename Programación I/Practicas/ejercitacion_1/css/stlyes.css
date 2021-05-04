@@ -1,0 +1,26 @@
+/* Selector de etiqueta*/
+p{
+    color: burlywood;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* Selector de clase*/
+.azul{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Selector de ID*/
+#hola{
+    font-weight: 100;
+}
+
+/*Selectores combinados*/
+p.parrafo_1{
+    background-color: darkgray;
+}
+
+/*Selectores descendentes*/
+ul#lista li{
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT8DSvxaDD9A9Wq84GBuf4GiPFl5AzteiCkzBWU8J0qtgExRa3Z );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-position-x: center;
+    background-position-y: center;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 52px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: normal;
+}
+ol{
+    font-weight: bold;
+}
+ul{
+    background-color: red;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
